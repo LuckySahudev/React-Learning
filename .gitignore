@@ -1,7 +1,30 @@
-chapter2 folder creation/
+Unit 2*/
+Unit 3*/
 chapter3 css/
 chapter4 props/
 chapter5 funtion and hook/
 chapter6 usestate/
 chapter7 two way binding and form/
 Project/
+chapter8 local storage/
+chapter9 api calling/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
