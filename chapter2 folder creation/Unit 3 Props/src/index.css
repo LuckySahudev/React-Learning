@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  box-sizing: border-box;
+}
+
+#root{
+  padding: 30px;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 300px;
+  background-color: black;
+  display: flex;
+  flex-wrap:wrap;
+  gap: 20px;
+}
+
+.card{
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  width: 200px;
+  background: white;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img{
+
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  padding: 3px;
+  border-radius: 50%;
+  border: solid 2px #dadada;
+}
+
+.top button {
+  height: 1.8rem;
+  padding: 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color: #b1b1b1;
+  font-size: 13px;
+  border: solid 1px #b1b1b1;
+  border-radius: 5px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-bottom: 30px;
+}
+
+.center h1{
+  font-size: 16px;
+  font-weight: 600;
+}
+.center span{
+  font-size: 10px;
+  font-weight: 400;
+  color: #7e7c7c;
+}
+
+.center h3{
+  font-size: 18px;
+}
+
+.center .job-type{
+  display: flex;
+  gap: 5px;
+}
+
+.job-type h2{
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 6px;
+  background-color: #dadada;
+  border-radius: 5px;
+}
+
+
+
+.bottom{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 0px 0px;
+  border-top: #bbb 2px solid;
+  
+}
+
+.bottom .pay-of{
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(26, 25, 25);
+  padding: 2px 0px;
+}
+
+.bottom .location{
+  font-size: 10px;
+  color: #898888;
+}
+
+.bottom button {
+  height: 20px;
+  box-sizing: content-box;
+  padding: 3px 8px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+
+}

@@ -57,5 +57,20 @@
         -> React treats `<Header />` as a function call and renders the JSX returned by `Header`.
 
 
+3. Props
+
+    -> Props are used to pass data from Parent → Child.
+    -> Props are read-only.
+
+        ```jsx
+        <Header name="Lucky" />
+        ```
+
+        ```jsx
+        function Header(props) {
+            return <h1>Hello {props.name}</h1>;
+        }
+        ```
+
 
 
