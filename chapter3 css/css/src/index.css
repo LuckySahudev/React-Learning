@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: chocolate;
+}
+
+.btn{
+  padding: 3px 8px;
+  border: none;
+  color: white;
+  background-color: red;
+}
